@@ -36,6 +36,7 @@ export default createSlice({
   reducers: {
     addTodo: (state, action) => {
       state.push(action.payload)
+      console.log(state, action)
     },
     toggleTodoStatus: (state, action) => {
       const currentTodo = state.find((todo) => todo.id === action.payload)

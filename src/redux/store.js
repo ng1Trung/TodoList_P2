@@ -14,7 +14,7 @@ import { configureStore } from "@reduxjs/toolkit"
 import todoListSlice from "../components/TodoList/todoListSlice"
 import filterSlice from "../components/Filters/filterSlice"
 
-console.log(todoListSlice)
+// console.log(todoListSlice)
 
 const store = configureStore({
   reducer: {
